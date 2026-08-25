@@ -1,0 +1,22 @@
+<!--
+  File Integrity Monitoring (Syscheck) config for the Linux endpoint.
+  Location on agent: /var/ossec/etc/ossec.conf
+
+  Windows config mirrors this pattern for C:\company data and relies
+  on Wazuh's default out-of-the-box registry/system-binary monitoring.
+-->
+<syscheck>
+  <disabled>no</disabled>
+
+  <!-- Frequency that syscheck runs a full scan, default every 12 hours -->
+  <frequency>43200</frequency>
+
+  <!-- Real-time monitoring on the sensitive/custom data directory -->
+  <directories realtime="yes">/opt/company-data</directories>
+
+  <scan_on_start>yes</scan_on_start>
+
+  <!-- Scheduled (non-realtime) monitoring of key system directories -->
+  <directories>/etc,/usr/bin,/usr/sbin</directories>
+  <directories>/bin,/sbin,/boot</directories>
+</syscheck>

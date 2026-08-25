@@ -1,0 +1,17 @@
+<!--
+  Active Response block for automated SSH brute-force blocking.
+  Location on manager: /var/ossec/etc/ossec.conf
+
+  NOTE: the tag is <rules_id> (plural), NOT <rule_id> — using the
+  singular form is a common typo that causes wazuh-manager to fail
+  on restart with:
+    wazuh-analysisd: ERROR: (1230): Invalid element in the configuration: 'rule_id'.
+-->
+<active-response>
+  <disabled>no</disabled>
+  <command>firewall-drop</command>
+  <location>local</location>
+  <rules_id>100102</rules_id>
+  <level>10</level>
+  <timeout>60</timeout>
+</active-response>
