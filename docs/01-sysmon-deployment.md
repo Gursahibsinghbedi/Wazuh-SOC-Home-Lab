@@ -90,5 +90,5 @@ The **Endpoints Summary** page for `sahib-windows` was also checked, showing the
 - Cross-referencing OS-level tooling (Event Viewer) against SIEM ingestion to validate pipelines
 - MITRE ATT&CK-aware telemetry validation
 
-### Screenshots
-See [`screenshots/02-sysmon-deployment/`](../screenshots/02-sysmon-deployment/) for the full walkthrough.
+
+
