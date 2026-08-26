@@ -114,5 +114,5 @@ Restart-Service -Name WazuhSvc
 - Wazuh agent enrollment on both Linux (apt/dpkg) and Windows (MSI/PowerShell)
 - Troubleshooting agent-to-manager connectivity via `ossec.conf`
 
-### Screenshots
-See [`screenshots/00-vm-provisioning/`](../screenshots/00-vm-provisioning/) and [`screenshots/01-manager-and-agent-setup/`](../screenshots/01-manager-and-agent-setup/) for the full walkthrough.
+
+
