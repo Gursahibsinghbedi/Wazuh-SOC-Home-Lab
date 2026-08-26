@@ -95,5 +95,5 @@ This mimics a common attacker pattern — collecting sensitive local files (`/et
 - SSH authentication log analysis (failed vs. successful)
 - Recognizing attacker-like file-staging behavior at the OS level
 
-### Screenshots
-See [`screenshots/06-telemetry/`](../screenshots/06-telemetry/) for related SSH/Sysmon telemetry captures also referenced in [01-sysmon-deployment.md](01-sysmon-deployment.md).
+
+
