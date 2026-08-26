@@ -82,13 +82,11 @@ Full screenshot walkthroughs live under [`screenshots/`](screenshots/), organize
 
 ```
 screenshots/
-├── 00-vm-provisioning/           VM creation, disk/storage setup, snapshots
-├── 01-manager-and-agent-setup/   Manager install, agent enrollment (both platforms)
-├── 02-sysmon-deployment/         Sysmon install + verification (both platforms)
-├── 03-active-response/           (add SSH brute-force attack/block screenshots here)
-├── 04-file-integrity-monitoring/ (add FIM event screenshots here)
-├── 05-soc-dashboard/             (add dashboard build screenshots here)
-└── 06-telemetry/                 (add telemetry generation/analysis screenshots here)
+├── 01-deploy agents +sysmon/         Sysmon install + verification (both platforms)
+├── 02-active-response/           (add SSH brute-force attack/block screenshots here)
+├── 03-file-integrity-monitoring/ (add FIM event screenshots here)
+├── 04-soc-dashboard/             (add dashboard build screenshots here)
+
 ```
 
 The first three folders are populated. Folders `03`–`06` are scaffolded and ready — drop in screenshots from those investigations if/when you want the visuals alongside the write-ups (the markdown log tables already tell the full story on their own).
